@@ -11,7 +11,7 @@ Media processing applications often need information about what’s in audio and
     This demo, instructions, scripts and cloudformation template is designed to be run in `us-east-1`. With few modifications you can try it out in other regions as well(_Not covered here_).
 
     - AWS CLI pre-configured - [Get help here](https://youtu.be/TPyyfmQte0U)
-    - **Optional** AWS CDK Installed & Configured - [Get help here](https://www.youtube.com/watch?v=MKwxpszw0Rc)
+    - AWS CDK Installed & Configured - [Get help here](https://www.youtube.com/watch?v=MKwxpszw0Rc)
 
 1. ## ⚙️ Setting up the environment
 
@@ -43,14 +43,7 @@ Media processing applications often need information about what’s in audio and
     cdk deploy
     ```
 
-1. ## 🔬 Test the app
-
-    The `cdk deploy` command should provide you the application load balancer url to access the web app. _You can get the same from cloudformation outputs or in the ALB page.
-
-    You should be seeing something like this,
-    ![Server Chat App using Fargate](images/miztiik-fargate-chat-app_00.png)
-
-1. ## Testing the solution
+1. ## 🔬 Testing the solution
 
     - Upload a video to S3 Bucket, _A sample file is provided in the repo under `sample_events` directory_
     - After a few seconds check the dynamodb for new entry
