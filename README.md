@@ -6,7 +6,7 @@ Media processing applications often need information about what’s in audio and
 
   Follow this article in **[Youtube](https://www.youtube.com/c/ValaxyTechnologies)**
 
-1. ## Prerequisites
+1. ## 🧰 Prerequisites
 
     This demo, instructions, scripts and cloudformation template is designed to be run in `us-east-1`. With few modifications you can try it out in other regions as well(_Not covered here_).
 
@@ -385,6 +385,6 @@ Buy me a coffee ☕ through [Paypal](https://paypal.me/valaxy), _or_ You can rea
 
 1. [Stackoverflow oserror-libmediainfo-so](https://stackoverflow.com/questions/52516828/oserror-libmediainfo-so-0-cannot-open-shared-object-file-no-such-file-or-dire)
 
-### ℹ️ Metadata
+### 🏷️ Metadata
 
 **Level**: 300
