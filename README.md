@@ -31,7 +31,7 @@ Media processing applications often need information about what’s in audio and
     npm install -g aws-cdk
 
     # Make sure you in root directory
-    cd fargate-chat-app
+    cd serverless-video-metadata-processor
     source .env/bin/activate
     pip install -r requirements.txt
     ```
